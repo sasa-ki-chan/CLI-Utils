@@ -1,0 +1,30 @@
+{
+  "name": "sequencer.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sasa-ki-chan/CLI-Utils.git",
+  "author": "sasaki <sasakisan.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "type": "tsc --noEmit",
+    "dev": "ts-node --files -r tsconfig-paths/register src/index.ts"
+  },
+  "bin": {
+    "cli-utils": "./dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "utils",
+    "typescript",
+    "nodejs",
+    "npm"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.2"
+  }
+}
